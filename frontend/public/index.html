@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="dark">
+    <header>
+      <div class="navbar border">
+        <b>
+          Welcome to the Best Makhanas in India with several flavours according
+          to your taste.
+        </b>
+      </div>
+      <div class="navbar-3">
+        <div class="logo">
+          <img src="img/avodhaicon.png" alt="" />
+        </div>
+        <div class="nav-search">
+          <input placeholder="Search Here" class="input-search" />
+          <div class="logo-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="add-cart">
+          <div class="add-cart1 border1">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="add-cart2 border1">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="add-cart3 border1">
+            <p>Need Help?</p>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-2">
+        <div class="button-menu border">
+          <button id="menu-button">Customise</button>
+        </div>
+        <div class="home-page1">
+          <div class="home-page2 border">
+            <b>Home</b>
+          </div>
+        </div>
+        <div class="button border">
+          <select>
+            <option class="makhana">Our Makhana</option>
+          </select>
+        </div>
+        <div class="button1 border">
+          <select>
+            <option class="recipies">Recipes</option>
+          </select>
+        </div>
+        <div class="button2 border">
+          <select>
+            <option class="aboutus">About Us</option>
+          </select>
+        </div>
+        <div class="button3 border">
+          <select>
+            <option class="contactus">Contact Us</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+   <!-- Button to open the Customize menu -->
+
+
+<!-- CUI Menu -->
+<div id="cui-menu">
+    <button id="close-menu">X</button>
+    <div class="cui-option">
+        <h3>Theme</h3>
+        <button data-theme="light">Light</button>
+        <button data-theme="dark">Dark</button>
+    </div>
+    <div class="cui-option">
+        <h3>Font Size</h3>
+        <button data-font-size="small">Small</button>
+        <button data-font-size="medium">Medium</button>
+        <button data-font-size="large">Large</button>
+    </div>
+    <div class="cui-option">
+        <h3>Layout</h3>
+        <button data-layout="grid">Grid</button>
+        <button data-layout="list">List</button>
+    </div>
+</div>
+
+<div class="hero-section">
+  <div class="slider">
+      <img src="img/makhana.jpeg" alt="Makhana" class="slide active" />
+      <img src="img/makhana3.jpg" alt="Makhana 2" class="slide" />
+      <img src="img/makhana4.jpg" alt="Makhana 3" class="slide" />
+      <img src="img/makhana6.jpg" alt="Makhana 4" class="slide" />
+      <img src="img/makhana8.jpg" alt="Makhana 5" class="slide" />
+      <img src="img/makhana11.jpeg" alt="Makhana 6" class="slide" />
+  </div>
+</div>
+
+   
+
+    <div class="hero-section" >
+      <div class="item-section1" >
+      <h1>Shop By Brand</h1>
+
+      <div class="box-1">
+        <div class="box-content">
+          <div class="box-img" style="background-image: url('img/mani1.jpeg')"></div>
+          <h2 class="brand-name">Mani Makhana</h2>
+        </div>
+      </div>
+
+      <div class="box-2">
+        <div class="box-content2">
+          <div class="box-img2" style="background-image: url('img/rasgulla1.jpeg')"></div>
+          <h2 class="brand-name">Rasgulla Makhana</h2>
+        </div>
+     
+      </div>
+
+      <div class="box-1">
+        <div class="box-content">
+          <div class="box-img" style="background-image: url('img/sagarbhog1.jpg')"></div>
+          <h2 class="brand-name">Sagar Bhog Makhana</h2>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="hero-section">
+      <div class="item-section2">
+      <div class="box-2">
+        <div class="box-content2">
+          <div class="box-img2" style="background-image: url('img/royalbhog1.jpg')"></div>
+          <h2 class="brand-name">Royal Bhog Makhana</h2>
+        </div>
+      </div>
+      
+
+      <div class="box-1">
+        <div class="box-content">
+          <div class="box-img" style="background-image: url('img/rajaji1.jpg')"></div>
+          <h2 class="brand-name">RajaJi Makhana</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer>
+      <div class="footer-panel1 border">
+        <b>Go To Top</b>
+      </div>
+      <div class="footer-panel2">
+        <ul>
+          <b>Quick Links</b>
+          <a>About us</a>
+          <a>Privacy Policy</a>
+        </ul>
+        <ul>
+          <b>Our Services</b>
+          <a>Bulk Orders</a>
+          <a>Careers</a>
+          <a>Contact Us</a>
+        </ul>
+        <ul>
+          <b>Avodha Policies</b>
+          <a>Shipping</a>
+          <a>Payments</a>
+          <a>Refund Policy</a>
+          <a>Refunds and Cancellation</a>
+        </ul>
+      </div>
+      <div class="footer-panel3">
+        <p>
+          Our Mission : Avodha Enterprises aims at providing the best Quality of
+          makhana to our customers all over the world and to inspire healthier
+          communities by connecting people to real tools. Our Moto is "Healthy Khao
+          Aur Swastha Raho"
+        </p>
+      </div>
+    </footer>
+    </div>
+  </body>
+</html>

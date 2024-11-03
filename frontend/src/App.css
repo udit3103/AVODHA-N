@@ -1,0 +1,581 @@
+* {
+  border: 0;
+  border: border-box;
+  font-family: Gill Sans Nova;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 2px solid white;
+}
+.border1 {
+  border: 2px solid transparent;
+}
+.border1:hover {
+  border: 2px solid pink;
+}
+.navbar {
+  height: 37px;
+  width: 100%;
+  color: #ffffff;
+  background-color: red;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-3 {
+  height: 90px;
+  width: 100%;
+  color: #193a43;
+ 
+  display: flex;
+}
+.nav-logo {
+  height: 80px;
+  width: 100px;
+}
+.logo {
+  height: 78px;
+  width: 78px;
+  background-size: cover;
+  align-items: baseline;
+  justify-content: center;
+  margin-left: 29px;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
+.nav-search {
+  width: 600px;
+  height: 40px;
+  border: 4px solid black;
+  margin-left: 150px;
+  margin-right: 130px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 4px;
+  border-color: #ffa500;
+  border-radius: 20px;
+  padding: 2px 7px 3px 8px;
+  justify-content: space evenly;
+  display: flex;
+}
+.input-search {
+  width: 550px;
+  height: 40px;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.logo-search {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: #ffa500;
+  color: #0f1111;
+  height: 40px;
+  width: 50px;
+  border-radius: 20px;
+}
+.add-cart {
+  align-items: center;
+  justify-content: right;
+  display: flex;
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.add-cart2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.add-cart3 {
+  font-weight: 800;
+  margin-top: 15px;
+}
+.navbar-2 {
+  height: 70px;
+  width: 100%;
+  color: #ffffff;
+  background-color: pink;
+  display: flex;
+  flex-direction: center;
+    justify-content: center;
+}
+
+.home-page1 {
+  margin-left: 70px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.home-page2 {
+  background-color: pink;
+  color: #193a43;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 1000;
+}
+.button select {
+  margin-left: 70px;
+  background-color: pink;
+  color: #193a43;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: 800;
+}
+.button1 select {
+  margin-left: 70px;
+  background-color: pink;
+  color: #193a43;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: 800;
+}
+.button2 select {
+  margin-left: 70px;
+  background-color: pink;
+  color: #193a43;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: 800;
+}
+.button3 select {
+  margin-left: 70px;
+  background-color: pink;
+  color: #193a43;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-weight: 800;
+}
+.add-to {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.hero-section {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 400px; /* Adjust height as needed */
+}
+.hero-section img {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-size: cover;
+}
+.item-section1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px 15px;
+  width: 100%;
+  height: 350px;
+  align-items: center;
+  flex-direction: row;
+  text-align: end;
+}
+.box-1 {
+  height: 230px;
+  width: 20%;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  padding: 15px 0px 15px;
+  background-color: white;
+  border: 2px solid transparent;
+  margin-left: 10px;
+  border-radius: 100px;
+  border-color: #f4f1eb;
+  background-color: #f4f1eb;
+}
+
+.box-content {
+  margin-left: 10px;
+  margin-right: 8px;
+}
+.box-img {
+  height: 230px;
+  width: 100%;
+  border-radius: 100px;
+  background-image: cover;
+}
+.box-2 {
+  height: 260px;
+  width: 23%;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  padding: 15px 0px 15px;
+  background-color: white;
+  border: 2px solid transparent;
+  margin-left: 10px;
+  border-radius: 100px;
+  border-color: #f4f1eb;
+  background-color: #f3f1eb;
+}
+.box-content2 {
+  margin-left: 10px;
+  margin-right: 8px;
+}
+.box-img2 {
+  height: 293px;
+  width: 100%;
+  border-radius: 100px;
+  background-image: cover;
+}
+
+.item-section2 {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+}
+.item-section3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px 15px;
+  background-color: #f4f1eb;
+  width: 100%;
+  height: 350px;
+}
+.item-section4 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px 15px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 350px;
+}
+.item-section5 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px 15px;
+  background-color: #f4f1eb;
+  width: 100%;
+  height: 350px;
+}
+.footer-panel1 {
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  font-size: 20px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.footer-panel2 {
+  height: 400px;
+  width: 100%;
+  background-color: pink;
+  color: #0f1111;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  margin-top: 80px;
+}
+ul a {
+  margin-top: 8px;
+  display: block;
+  font-size: 18px;
+  color: #000000;
+}
+.footer-panel3 {
+  height: 75px;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+}
+p {
+  font-size: 20px;
+  margin-top: 0px;
+  font-weight: 800;
+}
+.box-1, .box-2 {
+  height: 230px;  /* Adjust height if necessary */
+  width: 20%;    /* Adjust width if you want more products on the same row */
+  margin: 10px;
+  padding: 15px 0;
+  background-color: white;
+  border: 2px solid transparent;
+  border-radius: 10px; /* Make corners smoother */
+}
+
+.box-img, .box-img2 {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 10px; /* Same as box */
+}
+
+.box-content, .box-content2 h2 {
+  text-align: center;
+  font-size: 18px;
+  color: #193a43;
+}
+.brand-name {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #ff6347; /* Tomato color for stylish look */
+  font-weight: bold;
+  margin-top: 15px;
+  font-family: 'Gill Sans Nova', sans-serif;
+}
+.logo img {
+  width: 130px;
+  display: flex;
+  flex-direction: center;
+    justify-content: center;
+    margin-top: -20px;
+    float: left;
+}
+.item-section1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.box-1, .box-2 {
+  display: inline-block;
+  margin: 20px;
+  width: 200px; /* Adjust width as needed */
+}
+
+.box-content, .box-content2 {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.box-content:hover, .box-content2:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.box-img, .box-img2 {
+  width: 100%;
+  height: 150px; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.brand-name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif; /* Stylish font */
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase; /* All caps for stylish effect */
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.box-content:hover .brand-name, 
+.box-content2:hover .brand-name {
+  color: #ff5722; /* Stylish color change on hover */
+}
+/* Add these styles for the Menu button */
+.button-menu {
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for the Menu button */
+.button-menu button {
+  background-color: pink;
+  color: #193a43;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for the CUI menu */
+.cui-menu {
+  position: fixed;
+  top: 0;
+  right: -370px; /* Move completely off-screen (including any potential padding/margins) */
+  width: 300px;
+  height: 100%;
+  background-color: #f4f4f4;
+  box-shadow: -3px 0 5px rgba(0, 0, 0, 0.5);
+  transition: right 0.3s ease-in-out;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.cui-menu.active {
+  right: 0; /* Slide in */
+}
+
+.cui-option {
+  margin-bottom: 20px;
+}
+
+.cui-option h3 {
+  margin-bottom: 10px;
+}
+
+.cui-option button {
+  display: block;
+  width: 100%;
+  background-color: #f4f1eb;
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.cui-option button:hover {
+  background-color: #e0e0e0;
+}
+/* Theme styles */
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-theme {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Font size styles */
+.font-small {
+  font-size: 12px;
+}
+
+.font-medium {
+  font-size: 16px;
+}
+
+.font-large {
+  font-size: 20px;
+}
+
+/* Layout styles */
+.layout-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.layout-list {
+  display: block;
+}
+
+.close-button {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.close-button:hover {
+  background: #c0392b;
+}
+/* CUI Menu styles */
+#cui-menu {
+  display: none; /* Hide by default */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Show the menu when active */
+#cui-menu.active {
+  display: block; /* Show when active */
+}
+
+.slider {
+  display: flex;
+  transition: transform 1s ease;
+}
+.slider {
+  display: flex;
+  transition: transform 1s ease;
+  width: 300%; /* This should be 100% times the number of slides */
+}
+
+.slide {
+  min-width: 100%; /* Each image takes full width */
+  opacity: 0; /* Initially invisible */
+  transition: opacity 1s ease;
+  position: absolute; /* Position absolute for sliding */
+  top: 0;
+  left: 0;
+}
+
+.slide.active {
+  opacity: 1; /* Show active slide */
+  z-index: 1; /* Ensure active slide is on top */
+}
+/* Light Theme */
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Font Size Options */
+.font-small {
+  font-size: 12px;
+}
+
+.font-medium {
+  font-size: 16px;
+}
+
+.font-large {
+  font-size: 20px;
+}
+
+/* Adjust headers and other elements if needed */
+.light-theme h1, .light-theme h2, .light-theme h3,
+.dark-theme h1, .dark-theme h2, .dark-theme h3 {
+  color: inherit; /* Inherits color based on the theme */
+}
