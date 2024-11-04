@@ -163,28 +163,66 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Error loading products:', error);
         }
     };
-    let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
 
-function showSlide(index) {
-    slides.forEach((slide, i) => {
-        slide.classList.remove('active');
-        if (i === index) {
-            slide.classList.add('active');
-        }
+    // Function to show product details in a fullscreen modal
+    function showDetails(element) {
+        const name = element.querySelector(".brand-name").innerText;
+        const description = element.getAttribute("data-description");
+        const price = element.getAttribute("data-price");
+
+        // Set the product details in the fullscreen modal
+        document.getElementById("productName").innerText = name;
+        document.getElementById("productDescription").innerText = description;
+        document.getElementById("productPrice").innerText = price;
+
+        // Show the fullscreen modal
+        document.getElementById("fullscreenModal").style.display = "block";
+    }
+
+    // Function to close the fullscreen modal
+    function closeModal() {
+        document.getElementById("fullscreenModal").style.display = "none";
+    }
+
+    // Dynamically add click event listeners to brand boxes for showing product details
+    const brandBoxes = document.querySelectorAll('.box-1, .box-2');
+    brandBoxes.forEach(box => {
+        box.addEventListener('click', () => showDetails(box));
     });
-}
 
-function nextSlide() {
-    currentSlide = (currentSlide + 1) % slides.length;
+    // Event listener to close modal when clicking the close button
+    document.querySelector('.close-modal').addEventListener('click', closeModal);
+
+    // Optional: Close modal if the user clicks outside of the modal content
+    window.onclick = function(event) {
+        const modal = document.getElementById("fullscreenModal");
+        if (event.target === modal) {
+            closeModal();
+        }
+    };
+
+    // Slide show functionality
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.remove('active');
+            if (i === index) {
+                slide.classList.add('active');
+            }
+        });
+    }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds
+
+    // Initial call to show the first slide
     showSlide(currentSlide);
-}
-
-setInterval(nextSlide, 3000); // Change slide every 3 seconds
-
-// Initial call to show the first slide
-showSlide(currentSlide);
-
 
     // Load products when the DOM is fully loaded
     loadProducts();
